@@ -1,56 +1,61 @@
 import { ArrowUpRight } from "lucide-react";
-
-const contactLinks = [
-  {
-    label: "Telegram",
-    href: "https://t.me/seidalint",
-  },
-  {
-    label: "LinkedIn",
-    href: "https://linkedin.com/in/seidalint",
-  },
-  {
-    label: "Email",
-    href: "mailto:seidalin.tim@gmail.com",
-  },
-];
+import { FadeIn } from "@/components/ui/fade-in";
 
 export function Footer() {
   return (
-    <footer id="contact" className="py-24 px-6 border-t border-zinc-100">
-      <div className="mx-auto max-w-6xl">
-        <div className="max-w-2xl">
-          <p className="text-sm font-medium text-zinc-400 uppercase tracking-widest mb-4">
-            Get in Touch
-          </p>
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-zinc-900">
-            Open to new opportunities
+    <>
+      {/* CTA */}
+      <section id="contact" className="scroll-mt-20 py-24 px-6">
+        <FadeIn>
+        <div className="mx-auto max-w-6xl text-center">
+          <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-zinc-900">
+            Let&apos;s Talk
           </h2>
-          <p className="mt-4 text-lg text-zinc-500 leading-relaxed">
-            I am open to Head of Design, Design Director, and VP of Design
-            roles. Based in Kazakhstan, available for remote work.
+          <p className="mt-4 text-lg text-zinc-500 leading-relaxed max-w-xl mx-auto">
+            Open to Head of Design, Design Director, and VP of Design roles.
           </p>
+          <p className="mt-2 text-sm text-zinc-400">
+            Kazakhstan · Remote · UAE · Georgia
+          </p>
+          <a
+            href="https://t.me/seidalint"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 inline-flex items-center gap-2 rounded-full bg-zinc-900 px-8 py-3.5 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
+          >
+            Get in Touch
+            <ArrowUpRight className="h-4 w-4" />
+          </a>
         </div>
+        </FadeIn>
+      </section>
 
-        <div className="mt-12 flex flex-wrap gap-4">
-          {contactLinks.map((link) => (
+      {/* Footer */}
+      <footer className="border-t border-zinc-100 py-8 px-6">
+        <div className="mx-auto max-w-6xl flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-sm text-zinc-300">
+            &copy; 2026 Timur Seidalin
+          </p>
+          <div className="flex gap-6">
             <a
-              key={link.label}
-              href={link.href}
+              href="https://t.me/seidalint"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-6 py-3 text-sm font-medium text-zinc-700 transition-colors hover:border-zinc-400 hover:text-zinc-900"
+              className="text-sm text-zinc-400 transition-colors hover:text-zinc-900"
             >
-              {link.label}
-              <ArrowUpRight className="h-4 w-4" />
+              Telegram
             </a>
-          ))}
+            <a
+              href="https://linkedin.com/in/seidalint"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-zinc-400 transition-colors hover:text-zinc-900"
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
-
-        <div className="mt-24 text-sm text-zinc-300">
-          &copy; {new Date().getFullYear()} Timur Seidalin
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </>
   );
 }

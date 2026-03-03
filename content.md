@@ -20,19 +20,6 @@ At HCB I grew VoC to 4.9 and registration conversion from 55% to 76%. Launched a
 
 AI evangelist: I integrate AI into design workflows, train teams on AI-assisted design, and research AI trends in banking. Speaker on vibe coding and AI-driven design at international conferences.
 
-**Hero Metrics (pick 3 for the hero section):**
-
-| Metric | Value | Label |
-|--------|-------|-------|
-| VoC app rating | 4.9 | Voice of Customer |
-| Registration conversion | 55% to 76% | +38% relative increase |
-| Team scale | 5 designers, 10 streams | Built from zero |
-| Time to launch | 6 months | Concept to production |
-| Design-dev consistency | 95% | Measured by QA audits |
-| Conference talks | 3 talks, 2 planned | 2023-2026 |
-
-**Recommended hero triple:** 4.9 VoC | 55% to 76% Conversion | 5 Designers, 10 Streams
-
 ---
 
 ## Case Study 1: HCB Business Redesign
