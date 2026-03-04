@@ -9,21 +9,21 @@ const timeline = [
     company: "Home Credit Bank",
     role: "Head of Design SME",
     detail:
-      "Led product design for the SME division, managing 5 designers across 10 product streams in partnership with the CPO. Grew app VoC to 4.9 and registration conversion to 76%. Built team operating model from scratch: Double Diamond sprints, design reviews, 1-on-1s, PDPs. Co-owned annual design strategy and budget planning. Shipped production-ready design system with design tokens, dark theme, and dynamic typography. Championed AI adoption across the design org.",
+      "Led product design for the SME division, managing a team of designers across multiple product streams in partnership with the CPO. Achieved high VoC ratings and significant conversion growth. Built team operating model from scratch: Double Diamond sprints, design reviews, 1-on-1s, PDPs. Co-owned annual design strategy and budget planning. Shipped production-ready design system with design tokens, dark theme, and dynamic typography. Championed AI adoption across the design org.",
   },
   {
     period: "Feb 2023 – Nov 2024",
     company: "Home Credit Bank",
     role: "Product Designer → Design Lead",
     detail:
-      "Joined as the founding designer on HCB Business. Grew from IC to team lead within 18 months, building the design function from zero. Launched a full-scale digital bank for SME clients in 6 months. Designed core financial flows: currency conversion, international transfers, contracts, and account management. Built UI Kit and design documentation from scratch.",
+      "Joined as the founding designer on HCB Business. Grew from IC to team lead, building the design function from zero. Launched a full-scale digital bank for SME clients. Designed core financial flows: currency conversion, international transfers, contracts, and account management. Built UI Kit and design documentation from scratch.",
   },
   {
     period: "Oct 2023 – Oct 2024",
     company: "START",
     role: "Design System Lead (contract)",
     detail:
-      "Built and maintained a multi-platform design system (iOS, Android, Web, TV) for 2 brands (START and UNICO) using atomic design principles and design tokens. Partnered with 4 engineering teams. Mentored 2 junior designers. Speaker at DesignScience 2024.",
+      "Built and maintained a multi-platform design system (iOS, Android, Web, TV) for multiple brands using atomic design principles and design tokens. Partnered with engineering teams. Mentored junior designers. Speaker at DesignScience 2024.",
   },
   {
     period: "Aug 2021 – Feb 2023",

@@ -27,7 +27,7 @@ export function CaseStudies() {
             </div>
             <div className="p-6">
               <span className="inline-flex items-center rounded-full bg-zinc-900 px-3 py-1 text-xs font-medium text-white mb-4">
-                55% → 76% conversion
+                Full Redesign
               </span>
               <h3 className="text-xl font-semibold text-zinc-900 tracking-tight">
                 HCB Business Redesign

@@ -5,7 +5,7 @@ import { Footer } from "@/components/sections/Footer";
 export const metadata = {
   title: "HCB Business Redesign — Timur Seidalin",
   description:
-    "Evolving a Banking App from MVP to a Scalable Platform. Registration conversion 55% → 76%, VoC 4.9.",
+    "Evolving a Banking App from MVP to a Scalable Platform.",
 };
 
 export default function HCBCasePage() {
